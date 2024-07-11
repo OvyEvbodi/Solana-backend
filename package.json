@@ -1,0 +1,25 @@
+{
+  "name": "bema_sol_backend",
+  "version": "1.0.0",
+  "description": "A backend service for Bema's Web3 project",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ts-node app.ts &",
+    "start": "ts-node app.ts &"
+  },
+  "author": "Ovy Evbodi",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.26",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
