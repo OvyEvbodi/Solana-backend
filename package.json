@@ -5,8 +5,8 @@
   "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ts-node app.ts &",
-    "start": "ts-node app.ts &"
+    "build": "ts-node app.ts",
+    "start": "ts-node app.ts"
   },
   "author": "Ovy Evbodi",
   "license": "ISC",

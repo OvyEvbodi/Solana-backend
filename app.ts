@@ -27,7 +27,7 @@ app.use(function (_, res, next) {
 })
 
 app.get('/', (_, res) => {
-  res.send('Please got to /nfts')
+  res.send('Please go to /nfts')
   res.end()
 })
 
@@ -48,5 +48,5 @@ app.get('/nfts', async (_, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Listening on http://localhost:${PORT}`)
+  console.log(`Listening on https://solana-backend-ysvd.onrender.com:${PORT}`)
 })
